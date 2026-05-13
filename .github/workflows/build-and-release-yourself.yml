@@ -18,6 +18,9 @@ env:
   SWIFTPROTOBUF_VERSION: "1.29.0"
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: macos-latest
